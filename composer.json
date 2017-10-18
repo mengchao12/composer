@@ -1,0 +1,25 @@
+{
+    "name": "cmc/hello",
+    "description": "zhe shi yi ge miaoshu",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mengchao12",
+            "email": "15210948020@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    },
+    "repositories": {
+            "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+            }
+    }
+}
